@@ -1,0 +1,24 @@
+{
+  "name": "codexsinal-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisB420/codexsinal-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisB420/codexsinal-backend/issues"
+  },
+  "homepage": "https://github.com/ChrisB420/codexsinal-backend#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "peer": "^1.0.2"
+  }
+}
