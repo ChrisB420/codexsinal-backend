@@ -1,24 +1,18 @@
+
 {
   "name": "codexsinal-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "CodexSignal Backend API Server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChrisB420/codexsinal-backend.git"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Chris Beda Oticha",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ChrisB420/codexsinal-backend/issues"
-  },
-  "homepage": "https://github.com/ChrisB420/codexsinal-backend#readme",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0",
-    "peer": "^1.0.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "peer": "^0.6.1"
   }
 }
